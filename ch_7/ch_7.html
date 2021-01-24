@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ch7</title>
+  </head>
+  <body>
+    <h1>PIAIC Assignment Chapter 7</h1>
+    <h3>Chapter#7 - Forms</h3>
+    <form>
+      <fieldset class="yourDetails">
+        <legend>Your Details:</legend>
+        <label for="name">Name: </label><input type="text" id="name"><br><br>
+        <label for="email">Email: </label><input type="email" id="email">
+      </fieldset>
+      <br>
+      <fieldset class="yourReview">
+        <legend>Your Review:</legend>
+        <label for="dropdown">How did you hear about us?</label>
+        <select name="selection">
+          <option value="Google">Google</option>
+          <option value="Facebook">Facebook</option>
+          <option value="Twitter">Twitter</option>
+        </select>
+        <br><br>
+        <label>Would you visit us again?</label><br>
+        <input type="radio" name="Yes">Yes</input>
+        <input type="radio" name="No">No</input>
+        <input type="radio" name="MayBe">May Be</input>
+        <br><br>
+        <p>Comments:</p>
+        <textarea name="comments" rows="8" cols="80"></textarea>
+        <br><br>
+        <input type="checkbox">Sign me up for email updates</input><br>
+        <button type="button">Submit Review</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
